@@ -24,12 +24,12 @@ successfully extracting 10 datapoints (using exa_seach.py, uses exa-py a search 
 failed, hit token limit, out of credits :"(
 
 ## Caution
-anthropic/claude-3-opus was used in the experiment. 
-LLMs that did NOT work: deepseek/deepseek-r1-0528-qwen3-8b & deepseek/deepseek-r1-0528-qwen3-8b:free. Endpoint: [OpenRouter](https://openrouter.ai/models)
+anthropic/claude-3-opus was used in the experiment. <br> 
+LLMs that did NOT work: deepseek/deepseek-r1-0528-qwen3-8b & deepseek/deepseek-r1-0528-qwen3-8b:free. Endpoint: [OpenRouter](https://openrouter.ai/models) <br>
 
-Not all LLMs are capable of using MCP tools.
-For MCPs, the following LLMs work.
-openai/gpt-4-turbo	✅ Yes	Fast and fully tool-capable
-openai/gpt-3.5-turbo	✅ Yes	Also supports tools
-anthropic/claude-3-opus	✅ Yes	Claude 3, works with tools
-mistralai/mixtral	⚠️ Partial	Not all endpoints support tools
+Not all LLMs are capable of using MCP tools. <br>
+For MCPs, the following LLMs work. <br>
+openai/gpt-4-turbo	✅ Yes	Fast and fully tool-capable <br>
+openai/gpt-3.5-turbo	✅ Yes	Also supports tools <br>
+anthropic/claude-3-opus	✅ Yes	Claude 3, works with tools <br>
+mistralai/mixtral	⚠️ Partial	Not all endpoints support tools <br>
