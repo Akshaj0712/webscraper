@@ -7,7 +7,7 @@ from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
 # Set your OpenRouter API key
-api_key = "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"
+api_key = "your-key"
 
 # Initialize the OpenAIProvider with OpenRouter's base URL
 provider = OpenAIProvider(
