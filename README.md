@@ -1,7 +1,9 @@
 # Agentic Web Scraper
 Idea: To scrape cotent using the mcp tool (very similar to api, difference in jargon) in scrape_dynamic_as_markdown.py; and use the llm model being called in app.py to improve the structure. In essence, scrape markdown content and prompting an LLM to have a second look.
+
 ## app.py
 The main script to run. Edit model, API key and prompt in this script.
+Ensure, you have all the requirements installed. pip install -r requirements.txt.
 
 ## scrape_dynamic_as_markdown.py
 beautiful soup (html) + Selenium (javascript) scraper tool
@@ -33,3 +35,7 @@ openai/gpt-4-turbo	✅ Yes	Fast and fully tool-capable <br>
 openai/gpt-3.5-turbo	✅ Yes	Also supports tools <br>
 anthropic/claude-3-opus	✅ Yes	Claude 3, works with tools <br>
 mistralai/mixtral	⚠️ Partial	Not all endpoints support tools <br>
+
+## Acknowledgements
+Source:
+https://medium.com/data-science-collective/pydantic-ai-mcp-advanced-web-scraping-the-key-to-powerful-agentic-ai-e1aced88a831
